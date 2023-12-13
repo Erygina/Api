@@ -1,0 +1,39 @@
+<definitions name = "service"
+             targetNamespace = "http://www.examples.com/wsdl/service.wsdl"
+             xmlns = "http://schemas.xmlsoap.org/wsdl/"
+             xmlns:soap = "http://schemas.xmlsoap.org/wsdl/soap/"
+             xmlns:tns = "http://www.examples.com/wsdl/service.wsdl"
+             xmlns:xsd = "http://www.w3.org/2001/XMLSchema">
+    <message name="GetIMTRequest">
+        <part name="weight" type="xsd:decimal"/>
+        <part name="height" type="xsd:decimal"/>
+        <part name="age" type="xsd:decimal"/>
+    </message>
+    <message name="GetIMTResponse">
+        <part name="imt" type="xsd:decimal"/>
+    </message>
+    <portType name="servicePort">
+        <operation name="GetIMT">
+            <input message="tns:GetIMTRequest"/>
+            <output message="tns:GetIMTResponse"/>
+        </operation>
+    </portType>
+    <binding name = "GetIMT_Binding" type="tns:servicePort">
+        <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name="GetIMT">
+            <soap:operation soapAction="GetIMT"/>
+            <input>
+                <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:examples:service" use="encoded"/>
+            </input>
+            <output>
+                <soap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="urn:examples:service" use="encoded"/>
+            </output>
+        </operation>
+    </binding>
+    <service name="service">
+        <documentation>WSDL File</documentation>
+         <port binding="tns:GetIMT_Binding" name="servicePort">
+            <soap:address location = "http://localhost:8001/imt/" />
+        </port>
+    </service>
+</definitions>

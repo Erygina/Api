@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DrAxe\\OneDrive\\Рабочий стол\\api-4-vik\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.api4-signalR-vik.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.api4-signalR-vik.props",
+      "PackagePath": "build\\api4-signalR-vik.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.api4-signalR-vik.props",
+      "PackagePath": "buildMultiTargeting\\api4-signalR-vik.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.api4-signalR-vik.props",
+      "PackagePath": "buildTransitive\\api4-signalR-vik.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

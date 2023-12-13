@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "PRZJ8uZskUMPf19NOhe1wkLehDNMPmJsVD9tM3+jXEQ=",
+  "Source": "api4-signalR-vik",
+  "BasePath": "_content/api4-signalR-vik",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "api4-signalR-vik\\wwwroot",
+      "Source": "api4-signalR-vik",
+      "ContentRoot": "C:\\Users\\DrAxe\\OneDrive\\Рабочий стол\\api-4-vik\\wwwroot\\",
+      "BasePath": "_content/api4-signalR-vik",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\DrAxe\\OneDrive\\Рабочий стол\\api-4-vik\\wwwroot\\index.html",
+      "SourceId": "api4-signalR-vik",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DrAxe\\OneDrive\\Рабочий стол\\api-4-vik\\wwwroot\\",
+      "BasePath": "_content/api4-signalR-vik",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

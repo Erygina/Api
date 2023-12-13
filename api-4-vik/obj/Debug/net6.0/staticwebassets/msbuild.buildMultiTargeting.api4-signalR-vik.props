@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\api4-signalR-vik.props" />
+</Project>
